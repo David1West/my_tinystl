@@ -1,4 +1,4 @@
-#ifndef  MY_ALLOCATOR_H
+#ifndef MY_ALLOCATOR_H
 #define MY_ALLOCATOR_H
 
 namespace mstl{
@@ -69,7 +69,7 @@ namespace mstl{
 		}
 
 		void construct(pointer p, const T& value) {
-			mstl::construct(p,value);//调用util.h里的construct
+			mstl::construct(p,value);//碌梅脫脙util.h脌茂碌脛construct
 		}
 
 		void construct(pointer p, T&& value) {
